@@ -38,7 +38,7 @@ const Hero = () => {
                 className="text-lg md:text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed"
                 >
                     Connect talented professionals with innovative companies.
-                    Your next carrer move or perfect candidate is just one click away.
+                    Your next career move or perfect candidate is just one click away.
                 </motion.p>
 
                 {/* CTA Butttons*/}
@@ -105,7 +105,7 @@ const Hero = () => {
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <div className="absolute top-20 left-10 w-32 h-32 bg-blue-100 rounded-full blur-3xl opacity-30"/>
                 <div className="absolute bottom-20 right-10 w-40 h-40 bg-purple-100 rounded-full blur-3xl opacity-30"/>
-                 <div className="absolute t0p-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-blue-50 to-purple-50 rounded-full blur-3xl opacity-20"/>
+                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-linear-to-r from-blue-50 to-purple-50 rounded-full blur-3xl opacity-20"/>
             </div>
     </section>
     

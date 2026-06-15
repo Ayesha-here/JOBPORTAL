@@ -37,7 +37,7 @@ const Header = () => {
             onClick={()=>{
                 navigate(
                     isAuthenticated&& user?.role==='employer' 
-                    ? '/employer-dashboard' : "login"
+                    ? '/employer-dashboard' : "/login"
                 )
             }}
                 className="text-gray-600 hover:text-gray-900 transition-colors font-medium"
@@ -50,7 +50,7 @@ const Header = () => {
             <div className="flex items-center space-x-3">
                 {isAuthenticated ? (
                     <div className="flex items-center space-x-3">
-                        <span className="text-gray-700">Welcome,{user?.fullName}</span>
+                        <span className="text-gray-700">Welcome, {user?.fullName}</span>
                         <a
                         href={
                             user?.role=== 'employer' ? '/employer-dashboard' : '/find-jobs'

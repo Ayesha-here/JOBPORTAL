@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="relative bg-gray-50 text-gray-900 overflow-hidden">
         <div className=" relative z-10 px-6 py-16">
-            <div className="max-w--6xl mx-auto">
+            <div className="max-w-6xl mx-auto">
                 {/*Main Footer Content */}
                 <div className="text-center space-y-8">
                     {/* Logo/Brand */}

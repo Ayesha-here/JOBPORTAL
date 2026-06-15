@@ -45,17 +45,17 @@ export const employerFeatures = [
         icon: Users,
         title: "Talent Pool Access",
         description:
-        "Access our vast database of pre-screened candidates and the perfect fit for your team.",
+        "Access our vast database of pre-screened candidates and find the perfect fit for your team.",
     },
     {
         icon: BarChart3,
-        title: "Analyst Dashboard",
+        title: "Analytics Dashboard",
         description:
-        "Track your hiring performance with detailed analytics and insights on camdidate engagement.",
+        "Track your hiring performance with detailed analytics and insights on candidate engagement.",
     },
     {
         icon: Shield,
-        title: "Verified candidates",
+        title: "Verified Candidates",
         description:
         "All candidates undergo background verification to ensure you're hiring trustworthy professionals.",
     },
@@ -71,8 +71,8 @@ export const employerFeatures = [
 export const NAVIGATION_MENU =[
     { id: "employer-dashboard", name: "Dashboard", icon: LayoutDashboard },
     { id: "post-job", name: "Post Job", icon: Plus },
-    { id: "manage-jobs", name: "Manage jobs", icon: Briefcase },
-    { id: "comapany-profile", name: "Company Profile", icon: Building2 },
+    { id: "manage-jobs", name: "Manage Jobs", icon: Briefcase },
+    { id: "company-profile", name: "Company Profile", icon: Building2 },
 ];
 
 //Categories and job types
@@ -82,7 +82,7 @@ export const CATEGORIES = [
     { value: "Marketing", label: "Marketing" },
     { value: "Sales", label: "Sales" },
     { value: "IT & Software", label: "IT & Software" },
-    { value: "Customer-service", label: "Customer Service" },
+    { value: "Customer Service", label: "Customer Service" },
     { value: "Product", label: "Product" },
     { value: "Operations", label: "Operations" },
     { value: "Finance", label: "Finance" },
@@ -99,7 +99,7 @@ export const JOB_TYPES = [
 ];
 
 export const SALARY_RANGES = [
-    "Less then $1000",
-    "$1000 - $15,000",
+    "Less than $10,000",
+    "$10,000 - $15,000",
     "More than $15,000",
 ]

@@ -13,10 +13,8 @@ const LandingPage = () => {
         <Features />
         <Analytics />
         <Footer />
-
-
     </div>
-  )
-}
+  );
+};
 
 export default LandingPage;
